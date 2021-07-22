@@ -8,7 +8,7 @@ alert('Hello ' + name);
 
 if(answer1.toLocaleUpperCase == "Yes"){
     alert("Is Correct");
-} else if (answer1 == "No"){
+} else if (answer1 !== "Yes"){
     alert("Wrong");
 }
 
@@ -18,7 +18,7 @@ if(answer2.toLowerCase =="Yes")
 {
     alert("Correct")
 }
-else if (answer2 == "No")
+else if (answer2 !== "Yes")
 {
     alert("Wrong");
 }
@@ -29,7 +29,7 @@ else if (answer2 == "No")
     {
     alert("WOWW!! Correct")
 }
-    else if (answer3 == "FedEx")
+    else if (answer3 !== "Lawn Service")
     {
     alert("Wrong");
 }
@@ -41,7 +41,7 @@ if(answer4 ==="Honey Gold Wings")
 {
     alert("Correct")
 }
-else if (answer4 === "Pizza")
+else if (answer4 !== "Honey Gold Wings")
 {
     alert("Wrong");
 }
