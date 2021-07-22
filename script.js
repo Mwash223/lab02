@@ -73,29 +73,37 @@ for(let i = 0; i < answer6.length; i++)
     console.log(answe6[i])
 }
 
-let answer7 = prompt(name + " What movies does Malik prefer the most?")
+// let answer7 = prompt(name + " What movies does Malik prefer the most?")
 
 
-    let movies =["Zombies","Ghost","Chucky"]
+    let movies =["zombies","ghost","chucky"]
 //    console.log(movies[0])
 //    console.log(movies[1])
 //    console.log(movies[2])
    for(let i = 0; i < movies.length; i++)
    {
-       console.log(movies[i])
-   }
+    let answer7 = prompt(name + " What movies does Malik prefer the most?").toLowerCase(); 
+    console.log(movies[i]);
+    if(movies.indexOf(answer7) > -1){
+        alert("Correct");
+        break;
+}
+    else{
+        alert("Wrong")
+    }
+}
 
    
 
-if(answer7 === "Zombies")
-{
-    alert("Correct")
-}
-else if (answer7 === "Ghost")
-{
-    alert("NOOOOO");
+// if(answer7 === "Zombies")
+// {
+//     alert("Correct")
+// }
+// else if (answer7 !== "Zombies")
+// {
+//     alert("NOOOOO");
 
-}
+// }
 
     
     
