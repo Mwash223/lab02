@@ -12,13 +12,96 @@ if(answer1.toLocaleUpperCase == "Yes"){
     alert("Wrong");
 }
 
-let answer2 = prompt(name + " Is Malik in CodeCrew");
+let answer2 = prompt(name + " Is Malik in CodeCrew")
 
-if(answer2.toLowerCase =="Yes"){
+if(answer2.toLowerCase =="Yes")
+{
     alert("Correct")
 }
-else if (answer2 == "No"){
-    alert("Wrong");}
+else if (answer2 == "No")
+{
+    alert("Wrong");
+}
     
+    let answer3 = prompt(name + " What was one of Malik's favorite jobs?")
+
+    if(answer3 =="Lawn Service")
+    {
+    alert("WOWW!! Correct")
+}
+    else if (answer3 == "FedEx")
+    {
+    alert("Wrong");
+}
+
+
+    let answer4 = prompt(name + " What is Malik's Favorite food")
+
+if(answer4 ==="Honey Gold Wings")
+{
+    alert("Correct")
+}
+else if (answer4 === "Pizza")
+{
+    alert("Wrong");
+}
+
+
+  let answer5 = prompt(name + " What is Malik's Last Name")
+
+if(answer5 ==="Washington")
+{
+    alert("Correct")
+}
+else if (answer5 !== "Washington")
+{
+    alert("Wrong");}
+
+
+  let answer6 = prompt(name + " Pick a number between 1-6")
+
+if(answer6 === 6)
+{
+    alert("Correct")
+}
+else if (answer6 < 6)
+{
+    alert("Too low");
+}
+for(let i = 0; i < answer6.length; i++)
+{
+    console.log(answe6[i])
+}
+
+let answer7 = prompt(name + " What movies does Malik prefer the most?")
+
+
+    let movies =["Zombies","Ghost","Chucky"]
+//    console.log(movies[0])
+//    console.log(movies[1])
+//    console.log(movies[2])
+   for(let i = 0; i < movies.length; i++)
+   {
+       console.log(movies[i])
+   }
+
+   
+
+if(answer7 === "Zombies")
+{
+    alert("Correct")
+}
+else if (answer7 === "Ghost")
+{
+    alert("NOOOOO");
+
+}
+
+    
+    
+
+    
+    
+
     
 
