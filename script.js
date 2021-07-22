@@ -63,6 +63,7 @@ else if (answer5 !== "Washington")
 if(answer6 === 6)
 {
     alert("Correct")
+  
 }
 else if (answer6 < 6)
 {
@@ -72,6 +73,7 @@ for(let i = 0; i < answer6.length; i++)
 {
     console.log(answe6[i])
 }
+
 
 // let answer7 = prompt(name + " What movies does Malik prefer the most?")
 

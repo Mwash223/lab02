@@ -1,11 +1,20 @@
 h1 {
     background-color: rgb(103, 207, 18);
    margin: -30px;
+   margin-right: 200px;
+   margin-left: 200px;
+   padding: 50px;
+   font-size: 100px;
+   margin-top: -89px;
+   
 }
-p {
-    font-size: 200%;
-    background-color: rgb(79, 159, 206);
+    h1:hover
+    {
+        color: chartreuse;
+    }
 
+p:hover {
+   color: chartreuse;
 }
 li{
     font-size: 200%;
@@ -19,22 +28,26 @@ body {
      padding: 5%; 
     }
     p {
-        margin-top: 30px;
+        font-size: 200%;
+        background-color: rgb(79, 159, 206);
         margin-bottom: 100px;
         margin-right: 200px;
-        margin-left: 200px;}
-        ol{
-            font-size: 200%;
-            
-            }
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+        
+       
         ol:hover 
         {
             color: chartreuse;
 
         }
-        ul:hover
+        li:hover
         {
             color: chartreuse;
+        }
+        ol{
+            font-size: 30px;
         }
 
 
