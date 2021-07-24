@@ -66,7 +66,7 @@ let movies = ["zombies", "ghost", "chucky"];
 //    console.log(movies[0])
 //    console.log(movies[1])
 //    console.log(movies[2])
-for (let i = 0; i < movies.length; i++) {
+for (let i = 0; i < 5; i++) {
   let answer7 = prompt(
     name + " What movies does Malik prefer the most?"
   ).toLowerCase();
